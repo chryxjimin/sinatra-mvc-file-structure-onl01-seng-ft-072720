@@ -1,4 +1,4 @@
-class Dog 
+class Dog
 
   attr_accessor :name, :breed, :age
 
@@ -11,7 +11,7 @@ class Dog
       @@all < self
   end
 
-  def self.all 
+  def self.all
     @@all
   end
 
